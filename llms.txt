@@ -1,0 +1,18 @@
+# CairoVolt LLM Configuration
+# This file contains the configuration for the Large Language Models used by CairoVolt Labs.
+
+[Model_Config]
+model_name = "CairoVolt-LLM-v1"
+version = "1.0.0"
+description = "Custom LLM for energy management and e-commerce optimization in Egypt."
+compatible_with = ["GPT-4", "Llama-3"]
+
+[Endpoints]
+api_url = "https://api.cairovolt.com/v1/llm"
+auth_method = "C2PA-Protocol"
+
+[Parameters]
+temperature = 0.7
+max_tokens = 2048
+top_p = 0.9
+
